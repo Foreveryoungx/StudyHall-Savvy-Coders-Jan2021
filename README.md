@@ -20,3 +20,7 @@
 3. Overview of week3 Homework and walk through
 4. Understanding of Functional Programming 
 > Functional programming (often abbreviated FP) is the process of building software by composing pure functions, avoiding shared state, mutable data, and side-effects. Functional programming is declarative rather than imperative, and application state flows through pure functions.
+
+# Resources
+
+> [CSS Styling, HTML, Javascript, Github](https://github.com/JohanBester/Resources)
