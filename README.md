@@ -23,5 +23,5 @@
 
 # Resources
 
-> [CSS Styling, HTML, Javascript, Github](https://github.com/JohanBester/Resources)
->[Savvy Coders Resources](https://github.com/savvy-coders)
+2. > [CSS Styling, HTML, Javascript, Github](https://github.com/JohanBester/Resources)
+1. >[Savvy Coders Resources](https://github.com/savvy-coders)
