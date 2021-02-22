@@ -1,3 +1,86 @@
-header {
-text-align: center;
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+/******* Header Styling ************/
+
+header{
+    padding: 80px;
+    text-align: center;
+    background: green;
+    color: whitesmoke;
+}
+
+header h1{
+    font-size: 40px;
+}
+
+/******* Header Styling ************/
+
+/********** Navbar Styling **********/
+nav{
+    overflow: hidden;
+    background-color: black;
+}
+
+nav a{
+    float: left;
+    display: block;
+    color: whitesmoke;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none ;
+}
+
+nav a:hover{
+    background-color: white;
+    color: black;
+}
+
+/********** Navbar Styling **********/
+
+/********** Main Styling **********/
+.row{
+    display:flex;
+    flex-wrap: wrap;
+}
+/****** left side */
+.side{
+    flex: 30%;
+    background-color: #f1f1f1;
+    padding: 20px
+}
+/*******Main side *******/
+.main{
+    flex:70%;
+    background-color: white;
+    padding:20px;
+}
+/********** Main Styling **********/
+
+/********** fake Images ************/
+.fakeimg{
+    background-color: gray;
+    width: 100%;
+    padding: 20px;
+}
+/********** fake Images ************/
+/************ Footer ***********/
+footer{
+    padding: 20px;
+    text-align: center;
+    background: black;
+    color: white;
+}
+/************ Footer ***********/
+
+img{
+    height: 120px;
+    border:thin;
+    border-image: 30 round;
 }

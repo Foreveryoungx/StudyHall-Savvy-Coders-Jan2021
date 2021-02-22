@@ -13,10 +13,16 @@ function bankAccount (payment, change) {
  if (payment !== 100 ){
    console.log("transaction successful");
  } else {
-prompt("invalid transaction pleas add more money");
+prompt("invalid transaction please add more money");
  }
 
 }
 
-bankAccount(100);
-house;
+// Selecting The header and changing the header after clicking on it
+let element = document.getElementById("header");
+
+element.addEventListener("click", ChangeHeader)
+
+function ChangeHeader(){
+  element.innerHTML = "New Heading";
+}
